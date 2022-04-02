@@ -1,0 +1,322 @@
+@font-face {
+    font-family: "gothamSSm";
+    src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Light_Web.woff2") format("woff2");
+    font-weight: "light";
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "gothamSSm";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Book_Web.woff2")
+      format("woff2");
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "gothamSSm";
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Medium_Web.woff2")
+      format("woff2");
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "gothamSSm";
+    font-style: normal;
+    font-weight: 200;
+    src: url("https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-XLight_Web.woff2")
+      format("woff2");
+  }
+  @font-face {
+    font-display: swap;
+    font-family: Gotham SSm;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Light_Web.woff2)
+      format("woff2");
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+body{
+    font-family:'gothamSSm';
+    line-height: 1.6;
+    
+}
+
+.navbar{
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+   
+}
+svg{
+    margin-right: 80px;
+}
+
+a{
+    
+    text-decoration: none;
+}
+p{
+    
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.navbar ul{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 400;
+    padding-left: 10px;
+    
+}
+.navbar ul li{
+    padding: 0 13px;
+    margin: 0 5px;
+}
+
+
+ ul{
+     list-style: none;
+ }
+
+ 
+ 
+
+ .navbar a{
+     color:#fff;
+     
+ }
+
+ /* img{
+     width: 100%;
+     padding: 5px;
+     
+ } */
+
+.page1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/d0cecbbf-1a20-4b48-b136-fb096af19515/bvlatuR/std/2880x1800/model-3-main-hero-a-desktop") no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.page1 h1{
+    position: absolute;
+	top: 19%;
+	left: 50%;
+	transform: translate(-50%, -35%);
+    animation: model 1.5s forwards;
+	width: 100%;
+	text-align: center;
+    color:#fff;
+    font-weight: 420;
+    font-size: 2.35rem;
+}
+
+
+
+
+
+.btn-dark{
+    background-color: transparent;
+    text-transform: capitalize;
+    border: 3px solid white;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+    color: white;
+    padding: 0 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 45px;
+    text-align: center center;
+    
+}
+
+.page2{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    color: black;
+}
+
+.page2 .page-content{
+    display: flex;
+    display:block;
+    justify-content: space-between;
+    padding-top: 50px;
+  
+   width: 30%;
+   height: 100%;
+   padding-right: 10px;
+    
+}
+.buttons{
+    padding-top: 100px;
+}
+
+
+.page2 img{
+    display: inline-block;
+    width: 70%;
+    
+}
+
+.paragraph{
+    display: inline-block;
+    width: 100%;
+   
+    top: 20px;
+    padding-top: 30px;
+    margin-left: 5px;
+   
+}
+.paragraph h2{
+    font-size: 17px;
+    font-weight: 300;
+}
+.paragraph h1{
+    font-size: 28px;
+    font-weight: 500;
+    
+    margin-bottom: 15px;
+}
+.paragraph h3{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+
+/* button { */
+    .btn-light{
+    background-color: white;
+    border: 3px solid black;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+    color: black;
+    padding: 0 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 45px;
+    text-align: center;
+   
+    
+}
+
+
+.small-btn{
+    width: 16px;
+    border-radius: 100px;
+}
+
+.buttons{
+    
+    padding: 50px;
+    bottom: 30px;
+    right: 35px;
+    
+}
+
+.btn-light:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+@media(max-width: 768px){
+
+    .navbar ul{
+    display: none;
+    }
+
+    .page1{
+       background-size: cover
+     }
+
+    .page2{
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+        width: 100%;
+        color: black;
+        position: relative;
+    }
+    .page2 .page-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      justify-content: space-between;
+       position: absolute;
+       top: 200px;
+       width: 100%;
+       padding-right: 10px;
+    } 
+    
+    .buttons{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+     #car1{
+         padding-top: 30px;
+        object-fit:fill;
+        position: absolute;
+    }
+    .navbar svg{
+        height: 80%;
+        width: 38%;
+        
+    }
+    
+
+}
+@keyframes model{
+    to{
+        
+        transform: translate(-50%, -50%);
+
+}
+}
+
+
+
+
+
