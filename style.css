@@ -92,8 +92,14 @@ p{
     
 }
 .navbar ul li{
-    padding: 0 13px;
-    margin: 0 5px;
+    padding: 4px 13px;
+    margin: 1px 5px;
+    transition-duration: 0.85s;
+    border-radius: 8px;
+}
+.navbar ul li:hover{
+    border: 0px solid rgb(119, 119, 119) ;
+    background-color: rgb(119, 119, 119);
 }
 
 
@@ -141,26 +147,7 @@ p{
 
 
 
-.btn-dark{
-    background-color: transparent;
-    text-transform: capitalize;
-    border: 3px solid white;
-    border-top-left-radius:25px;
-    border-top-right-radius:25px;
-    border-bottom-right-radius:25px;
-    border-bottom-left-radius:25px;
-    color: white;
-    padding: 0 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    height: 45px;
-    text-align: center center;
-    
-}
+
 
 .page2{
     display: flex;
@@ -240,6 +227,29 @@ p{
     
 }
 
+.btn-dark{
+    background-color: transparent;
+    text-transform: capitalize;
+    border: 3px solid white;
+    border-top-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+    color: white;
+    padding: 10px 32px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 18px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 45px;
+    text-align: center center;
+    
+}
+
 
 .small-btn{
     width: 16px;
@@ -257,6 +267,10 @@ p{
 .btn-light:hover{
     background-color: black;
     color: white;
+}
+.btn-dark:hover{
+    background-color: white;
+    color: black;
 }
 
 
